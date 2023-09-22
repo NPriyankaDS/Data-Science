@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
-d = pd.read_csv("C:/Users/Priyanka/Desktop/pythonds/canada_income.csv")
+d = pd.read_csv("enter the path to the folder in which the csv file resides")
 print(d.head(10))
 plt.xlabel('year')
 plt.ylabel('per capita income(US$)')
