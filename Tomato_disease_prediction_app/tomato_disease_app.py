@@ -26,8 +26,8 @@ class_names = ['Tomato_Bacterial_spot',
 
   
 
-def model_load():
-    model = load_model('tomatos.h5')
+def model_load(model_path):
+    model = load_model(model_path)
     return model
 
 def prediction(model,image):
@@ -43,7 +43,7 @@ def prediction(model,image):
     return predicted_class, confidence
 
 
-model = model_load()
+model = model_load('./tomatos.h5')
 
 if image_file is not None:
     image_base64 = base64.b64encode(image_file.read())
