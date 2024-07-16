@@ -1,6 +1,6 @@
-##Tomato Disease classification##
+# Tomato Disease classification
 
-This project is meant to predict the type of disease in the tomato plant by examining the leaf of the tomato plants.
+## This project is meant to predict the type of disease in the tomato plant by examining the leaf of the tomato plants.
 
 The diseases in the tomato plant include: 'Bacterial_spot', 'Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Two_spotted_spider_mite', 'Target_Spot', 'YellowLeaf__Curl_Virus', 'mosaic_virus'
 
